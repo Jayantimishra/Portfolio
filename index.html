@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a20d835183.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="navigation">
+      <div class="container">
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div id="header">
+      <div class="header-content">
+        <div class="header-text">
+          <p>Full Stack Developer</p>
+          <h1>Hi, I'm <span>Jayanti</span> Mishra</h1>
+        </div>
+        <div class="image-container">
+          <img src="Img/JM.jpg" alt="Jayanti Mishra" />
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------------------About------------------------- -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img width="600px" src="Img/JM1.jpg" alt="Jayanti Mishra" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hello! I’m Jayanti Mishra, a web developer and a second-semester
+              MCA student with a passion for creating dynamic and user-friendly
+              websites. <br />I am currently pursuing my Master’s in Computer
+              Applications, where I am gaining a strong foundation in
+              programming, algorithms, and software development principles.
+              <br />
+              When I’m not coding, I enjoy exploring new technologies, and
+              learning about UI/UX design to enhance my web development skills.
+              <br />I’m excited about the opportunities ahead in the field of
+              web development. <br />
+              I look forward to connecting with fellow developers and exploring
+              new challenges in the world of technology.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Html/Css, Javascript</span><br />Web Development</li>
+                <li>
+                  <span>C, C++, Java, Python</span><br />Programming Languages
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2019 - 2021</span><br />PCM from Vaishali, Bihar</li>
+                <li><span>2021 - 2024</span><br />BCA from Bihar</li>
+                <li><span>2024 - current</span><br />MCA from Jaipur</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------Services------------------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              As a web developer, I offer dynamic and responsive website
+              solutions tailored to your unique needs. Utilizing modern
+              technologies like HTML, CSS, JavaScript, and frameworks such as
+              React, I create user-friendly interfaces that enhance the overall
+              experience. Whether you require a custom website, an e-commerce
+              platform, or a content management system, I am committed to
+              delivering high-quality web solutions that drive engagement and
+              conversions.
+            </p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+          <div>
+            <i class="fa-regular fa-object-ungroup"></i>
+            <h2>UI/UX</h2>
+            <p>
+              I offer UI/UX design services focused on creating intuitive and
+              visually appealing interfaces that enhance user experiences. By
+              conducting in-depth user research and testing, I gain valuable
+              insights into user needs, which allows me to develop effective
+              wireframes and prototypes. Utilizing tools like Figma and Adobe
+              XD, I craft cohesive visual designs that reflect your brand
+              identity while ensuring optimal usability. My goal is to deliver
+              engaging experiences that captivate users and drive higher
+              conversions for your digital products.
+            </p>
+            <!-- <a href="#">Learn more</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------portfolio-------------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Img/Cal.png" alt="" />
+            <div class="layer">
+              <h3>Calculator</h3>
+              <p>
+                I developed a responsive calculator website using HTML, CSS, and
+                JavaScript. The project features a user-friendly interface that
+                allows users to perform basic arithmetic operations seamlessly.
+                By leveraging JavaScript for functionality and CSS for styling,
+                I ensured an engaging and interactive experience across all
+                devices.
+              </p>
+              <a href="https://github.com/Jayantimishra/Calculator"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Img/Ecom.png" alt="" />
+            <div class="layer">
+              <h3>Online Book Store</h3>
+              <p>
+                I developed a responsive online book store website using HTML,
+                CSS, and JavaScript. The project features a user-friendly
+                interface. By leveraging JavaScript for functionality and CSS
+                for styling, I ensured an engaging and interactive experience
+                across all devices.
+              </p>
+              <a href="https://github.com/Jayantimishra/Online-Book-Store-Web"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Img/Weather.png" alt="" />
+            <div class="layer">
+              <h3>Weather App</h3>
+              <p>
+                I developed a responsive weather app website using HTML, CSS,
+                JavaScript and weather api. The project features a user-friendly
+                interface. By leveraging JavaScript for functionality and CSS
+                for styling, I ensured an engaging and interactive experience
+                across all devices.
+              </p>
+              <a href="https://github.com/Jayantimishra/weatherapp"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/Jayantimishra?tab=repositories" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- -------------------contact--------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>mishrajayanti956@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>7980261246</p>
+            <div class="social-icons">
+              <a href=" https:www.linkedin.com/in/jayanti-mishra-529708254"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/Jayantimishra"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a href="Resume.jm.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
